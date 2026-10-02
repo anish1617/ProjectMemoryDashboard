@@ -1,0 +1,29 @@
+{
+  "name": "project-memory-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@11.15.0",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @project-memory/dashboard dev",
+    "fixture": "node scripts/create-fixture.mjs",
+    "serve": "node packages/api/dist/index.js",
+    "build": "pnpm -r build",
+    "test": "pnpm build && vitest run",
+    "check": "pnpm build && node scripts/check-boundaries.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "pm": "node packages/cli/dist/index.js",
+    "schema": "node scripts/generate-schema.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "^2.2.0",
+    "typescript": "^5.9.3",
+    "@types/node": "^24.0.0",
+    "vitest": "^5.0.3",
+    "prettier": "^3.6.2"
+  }
+}

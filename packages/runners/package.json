@@ -1,0 +1,13 @@
+{
+  "name": "@project-memory/runners",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@project-memory/core": "workspace:*"
+  }
+}

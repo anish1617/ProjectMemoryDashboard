@@ -1,0 +1,6 @@
+interface:
+  display_name: "Project Memory"
+  short_description: "Register, resume and checkpoint local projects"
+  default_prompt: "Use $project-memory to register this project and save its current context."
+policy:
+  allow_implicit_invocation: true

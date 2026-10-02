@@ -1,0 +1,510 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-02T07:27:24.222Z",
+  "title": "Design System: Project Memory",
+  "extensions": {
+    "colorMeta": {
+      "canvas": {
+        "role": "neutral",
+        "displayName": "Canvas",
+        "canonical": "#f6f7f5",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "surface": {
+        "role": "neutral",
+        "displayName": "Surface",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "soft": {
+        "role": "neutral",
+        "displayName": "Soft",
+        "canonical": "#f0f3ef",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#24362e",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted",
+        "canonical": "#627168",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Line",
+        "canonical": "#e1e7df",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "accent": {
+        "role": "primary",
+        "displayName": "Accent",
+        "canonical": "#2f624d",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "accent-soft": {
+        "role": "primary",
+        "displayName": "Accent Soft",
+        "canonical": "#e6eee7",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "attention": {
+        "role": "secondary",
+        "displayName": "Attention",
+        "canonical": "#795624",
+        "tonalRamp": [
+          "oklch(15% 0.06 80)",
+          "oklch(25% 0.06 80)",
+          "oklch(35% 0.06 80)",
+          "oklch(45% 0.06 80)",
+          "oklch(55% 0.06 80)",
+          "oklch(70% 0.06 80)",
+          "oklch(85% 0.06 80)",
+          "oklch(95% 0.06 80)"
+        ]
+      },
+      "attention-bg": {
+        "role": "secondary",
+        "displayName": "Attention Bg",
+        "canonical": "#f7efdf",
+        "tonalRamp": [
+          "oklch(15% 0.06 80)",
+          "oklch(25% 0.06 80)",
+          "oklch(35% 0.06 80)",
+          "oklch(45% 0.06 80)",
+          "oklch(55% 0.06 80)",
+          "oklch(70% 0.06 80)",
+          "oklch(85% 0.06 80)",
+          "oklch(95% 0.06 80)"
+        ]
+      },
+      "focus": {
+        "role": "primary",
+        "displayName": "Focus",
+        "canonical": "#488b6c",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-canvas": {
+        "role": "neutral",
+        "displayName": "Dark Canvas",
+        "canonical": "#141c18",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-surface": {
+        "role": "neutral",
+        "displayName": "Dark Surface",
+        "canonical": "#1b2520",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-soft": {
+        "role": "neutral",
+        "displayName": "Dark Soft",
+        "canonical": "#24312a",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-ink": {
+        "role": "neutral",
+        "displayName": "Dark Ink",
+        "canonical": "#e6eee6",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-muted": {
+        "role": "neutral",
+        "displayName": "Dark Muted",
+        "canonical": "#a6b4aa",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-line": {
+        "role": "neutral",
+        "displayName": "Dark Line",
+        "canonical": "#344239",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-accent": {
+        "role": "primary",
+        "displayName": "Dark Accent",
+        "canonical": "#aad6b8",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-accent-soft": {
+        "role": "primary",
+        "displayName": "Dark Accent Soft",
+        "canonical": "#2d4736",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-attention": {
+        "role": "secondary",
+        "displayName": "Dark Attention",
+        "canonical": "#eac788",
+        "tonalRamp": [
+          "oklch(15% 0.06 80)",
+          "oklch(25% 0.06 80)",
+          "oklch(35% 0.06 80)",
+          "oklch(45% 0.06 80)",
+          "oklch(55% 0.06 80)",
+          "oklch(70% 0.06 80)",
+          "oklch(85% 0.06 80)",
+          "oklch(95% 0.06 80)"
+        ]
+      },
+      "dark-attention-bg": {
+        "role": "secondary",
+        "displayName": "Dark Attention Bg",
+        "canonical": "#443826",
+        "tonalRamp": [
+          "oklch(15% 0.06 80)",
+          "oklch(25% 0.06 80)",
+          "oklch(35% 0.06 80)",
+          "oklch(45% 0.06 80)",
+          "oklch(55% 0.06 80)",
+          "oklch(70% 0.06 80)",
+          "oklch(85% 0.06 80)",
+          "oklch(95% 0.06 80)"
+        ]
+      },
+      "dark-focus": {
+        "role": "primary",
+        "displayName": "Dark Focus",
+        "canonical": "#aad6b8",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      },
+      "dark-action-ink": {
+        "role": "neutral",
+        "displayName": "Dark Action Ink",
+        "canonical": "#1b3022",
+        "tonalRamp": [
+          "oklch(15% 0.025 150)",
+          "oklch(25% 0.025 150)",
+          "oklch(35% 0.025 150)",
+          "oklch(45% 0.025 150)",
+          "oklch(55% 0.025 150)",
+          "oklch(70% 0.025 150)",
+          "oklch(85% 0.025 150)",
+          "oklch(95% 0.025 150)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Page heading",
+        "purpose": "Main page headings; 26px below 760px, 27px below 440px."
+      },
+      "body": {
+        "displayName": "Resume text",
+        "purpose": "Readable context bounded to 72ch."
+      },
+      "evidence": {
+        "displayName": "Technical reference",
+        "purpose": "Wrapped paths and evidence."
+      }
+    },
+    "shadows": [],
+    "motion": [
+      {
+        "name": "button-state",
+        "value": "background 0.16s ease-out, color 0.16s ease-out",
+        "purpose": "Button state feedback; disabled under reduced-motion preference."
+      },
+      {
+        "name": "working-indicator",
+        "value": "spin 1s linear infinite",
+        "purpose": "Busy icon rotation; disabled under reduced-motion preference."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact-phone",
+        "value": "440px"
+      },
+      {
+        "name": "mobile",
+        "value": "760px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1180px"
+      },
+      {
+        "name": "wide-desktop",
+        "value": "1500px"
+      }
+    ],
+    "themeMapping": {
+      "selector": ":root[data-theme=\"dark\"]",
+      "colorTokens": {
+        "canvas": "dark-canvas",
+        "surface": "dark-surface",
+        "soft": "dark-soft",
+        "ink": "dark-ink",
+        "muted": "dark-muted",
+        "line": "dark-line",
+        "accent": "dark-accent",
+        "accent-soft": "dark-accent-soft",
+        "attention": "dark-attention",
+        "attention-bg": "dark-attention-bg",
+        "focus": "dark-focus"
+      },
+      "primaryButtonText": "dark-action-ink"
+    },
+    "source": "apps/dashboard/src/styles.css",
+    "provenance": "Code-led extraction. No approved comp or generated raster. Ramps are preview-only synthesis, not implementation tokens."
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Save an explicit checkpoint.",
+      "html": "<button class=\"ds-primary\">Save checkpoint</button>",
+      "css": ".ds-primary{font-family:\"DM Sans Variable\",sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 15px;min-height:38px;border:1px solid var(--line,#e1e7df);border-radius:7px;font-size:12px;cursor:pointer;transition:background .16s ease-out,color .16s ease-out;background:var(--accent,#2f624d);border-color:var(--accent,#2f624d);color:var(--surface,#fff)}.ds-primary:hover{filter:brightness(.98)}.ds-primary:focus-visible{outline:2px solid var(--focus,#488b6c);outline-offset:4px;}.ds-primary:disabled{opacity:.55;cursor:wait}@media(prefers-reduced-motion:reduce){.ds-primary{transition:none}}:host-context([data-theme=\"dark\"]) .ds-primary{color:#1b3022}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Refresh repository evidence.",
+      "html": "<button class=\"ds-secondary\">Refresh evidence</button>",
+      "css": ".ds-secondary{font-family:\"DM Sans Variable\",sans-serif;display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:10px 15px;min-height:38px;border:1px solid var(--line,#e1e7df);border-radius:7px;font-size:12px;cursor:pointer;transition:background .16s ease-out,color .16s ease-out;background:var(--surface,#fff);color:var(--ink,#24362e)}.ds-secondary:hover{background:var(--soft,#f0f3ef);filter:brightness(.98)}.ds-secondary:focus-visible{outline:2px solid var(--focus,#488b6c);outline-offset:4px;}@media(prefers-reduced-motion:reduce){.ds-secondary{transition:none}}"
+    },
+    {
+      "name": "Repository Field",
+      "kind": "input",
+      "refersTo": "input",
+      "description": "A visible label and bounded path field.",
+      "html": "<label class=\"ds-field\">Repository path<input placeholder=\"D:/projects/my-project\" /></label>",
+      "css": ".ds-field{font-family:\"DM Sans Variable\",sans-serif;display:grid;gap:7px;font-size:12px;color:var(--ink,#24362e)}.ds-field input{font:inherit;padding:11px 13px;border:1px solid var(--line,#e1e7df);border-radius:7px;background:var(--canvas,#f6f7f5);color:var(--ink,#24362e);width:100%;caret-color:var(--accent,#2f624d)}.ds-field input::placeholder{color:var(--muted,#627168)}.ds-field input:focus-visible{outline:2px solid var(--focus,#488b6c);outline-offset:4px;}"
+    },
+    {
+      "name": "Selected Navigation",
+      "kind": "nav",
+      "refersTo": "navigation-active",
+      "description": "The current index destination.",
+      "html": "<nav aria-label=\"Preview navigation\"><button class=\"ds-nav\" aria-current=\"page\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><rect x=\"3\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"3\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"3\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/><rect x=\"14\" y=\"14\" width=\"7\" height=\"7\" rx=\"1\"/></svg>Projects</button></nav>",
+      "css": ".ds-nav{font-family:\"DM Sans Variable\",sans-serif;display:flex;align-items:center;gap:12px;border:0;padding:12px 14px;border-radius:8px;font-size:13px;font-weight:600;background:var(--accent-soft,#e6eee7);color:var(--accent,#2f624d);cursor:pointer}.ds-nav:hover{filter:brightness(.98)}.ds-nav:focus-visible{outline:2px solid var(--focus,#488b6c);outline-offset:4px;}"
+    },
+    {
+      "name": "Attention Status",
+      "kind": "chip",
+      "refersTo": "status-attention",
+      "description": "Attention with a readable meaning.",
+      "html": "<span class=\"ds-attention\">Needs a checkpoint</span>",
+      "css": ".ds-attention{font-family:\"DM Sans Variable\",sans-serif;display:inline-flex;align-items:center;gap:5px;font-size:10px;padding:5px 8px;border-radius:5px;background:var(--attention-bg,#f7efdf);color:var(--attention,#795624)}"
+    },
+    {
+      "name": "Project Card",
+      "kind": "card",
+      "refersTo": "project-card",
+      "description": "Project context, next action and freshness.",
+      "html": "<button class=\"ds-card\"><strong>Project Memory</strong><p class=\"ds-purpose\">Continuity across local projects and agents.</p><div class=\"ds-next\"><small>Next step</small><p>Verify the next local project.</p></div><footer>Sample data · Illustrative context</footer></button>",
+      "css": ".ds-card{font-family:\"DM Sans Variable\",sans-serif;text-align:left;padding:21px 22px 0;background:var(--surface,#fff);color:var(--ink,#24362e);border:1px solid var(--line,#e1e7df);border-radius:12px;display:flex;flex-direction:column;min-width:0;cursor:pointer}.ds-card strong{font-size:18px;font-weight:600;letter-spacing:-.015em}.ds-card:hover{background:var(--soft,#f0f3ef);border-color:var(--focus,#488b6c)}.ds-card:focus-visible{outline:2px solid var(--focus,#488b6c);outline-offset:4px;}.ds-purpose{font-size:11px;line-height:1.7;color:var(--muted,#627168);margin:8px 0 0}.ds-next{margin:23px 0}.ds-next small{font-size:10px;color:var(--muted,#627168)}.ds-next p{font-size:12px;line-height:1.6;margin:6px 0 0}.ds-card footer{border-top:1px solid var(--line,#e1e7df);padding:13px 0;font-size:9px;color:var(--muted,#627168)}"
+    },
+    {
+      "name": "Continuation Panel",
+      "kind": "custom",
+      "description": "Resume context with a supporting next action.",
+      "html": "<section class=\"ds-continue\"><div class=\"ds-main\"><h2>Pick up where you left off</h2><p>Open the project resume, evidence and history.</p><button class=\"ds-link\">Open resume →</button></div><div class=\"ds-context\"><span>Next useful action</span><p>Review the current evidence before continuing.</p></div></section>",
+      "css": ".ds-continue{font-family:\"DM Sans Variable\",sans-serif;display:grid;grid-template-columns:1.25fr 1fr;border:1px solid var(--line,#e1e7df);border-radius:12px;background:var(--surface,#fff);color:var(--ink,#24362e);overflow:hidden}.ds-main{padding:25px 28px}.ds-main h2{font-size:18px;font-weight:600;margin:0}.ds-main p{font-size:13px;line-height:1.65;margin:20px 0 17px}.ds-link{font:inherit;border:0;background:none;padding:0;color:var(--accent,#2f624d);font-size:12px;font-weight:500;cursor:pointer}.ds-link:hover{filter:brightness(.98)}.ds-link:focus-visible{outline:2px solid var(--focus,#488b6c);outline-offset:4px;}.ds-context{border-left:1px solid var(--line,#e1e7df);padding:28px 30px;background:var(--soft,#f0f3ef)}.ds-context span{font-size:11px;color:var(--muted,#627168)}.ds-context p{font-size:12px;line-height:1.65;margin:14px 0 18px}@media(max-width:760px){.ds-continue{grid-template-columns:1fr}.ds-main{padding:21px}.ds-context{border-left:0;border-top:1px solid var(--line,#e1e7df);padding:20px}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Project reading desk",
+    "overview": "A calm side index selects a project; the main desk opens its resume, with evidence and history nearby. Cool paper, green ink and restrained document surfaces keep technical context readable. The metaphor is spatial: no literal desk illustration is implemented.\n\nResume leads the current dashboard, supported by portfolio and activity. The user confirmed this direction on 2026-10-02 and requested mock dashboard first, then local tooling and gradual project onboarding. This is a code-led record, not an approved visual comp or a standing preference for future design workflows. No generated raster asset was supplied or created for this direction.\n\nSeven directions were considered: developer workspace, journal index, operations log, research archive, document register, studio shelf and project reading desk. Board/split-flap alternatives contributed stable identity and prioritized columns; metro contributed decisive selection; type specimens contributed a typographic grid. These are rationale, not user-approved anti-references.",
+    "keyCharacteristics": [
+      "Calm, compact document surfaces with clear boundaries.",
+      "Green actions and selection; amber attention with text labels.",
+      "Readable paths and explicit evidence provenance.",
+      "Persistent distinction between sample and local project data."
+    ],
+    "rules": [
+      {
+        "name": "The Meaning Rule",
+        "body": "Color accompanies a readable status or provenance label; it never establishes verification on its own.",
+        "section": "colors"
+      },
+      {
+        "name": "The Reference Rule",
+        "body": "Paths and evidence may wrap anywhere; never require horizontal scrolling to understand a reference.",
+        "section": "typography"
+      }
+    ],
+    "dos": [
+      "**Do** keep the next useful action close to readable project context.",
+      "**Do** use theme role tokens for repeated surfaces and status treatments.",
+      "**Do** preserve readable labels, provenance and sample/local source indicators.",
+      "**Do** wrap paths and technical evidence within the available width.",
+      "**Do** retain keyboard focus, honest empty/error states and reduced-motion behavior."
+    ],
+    "donts": [
+      "**Don't** equate a green badge or sample refresh with verified project completion.",
+      "**Don't** introduce decorative shadows or gradients into this recorded flat system without an intentional design revision.",
+      "**Don't** replace evidence labels with invented completion percentages.",
+      "**Don't** describe source inspection or this design document as runtime visual acceptance."
+    ]
+  }
+}

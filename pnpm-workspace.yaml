@@ -1,0 +1,7 @@
+packages:
+  - packages/*
+  - apps/*
+allowBuilds:
+  better-sqlite3: false
+minimumReleaseAgeExclude:
+  - vite@8.3.2

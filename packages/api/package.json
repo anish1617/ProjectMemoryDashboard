@@ -1,0 +1,19 @@
+{
+  "name": "@project-memory/api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./dist/server.js",
+    "./daemon": "./dist/daemon.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@project-memory/core": "workspace:*",
+    "@project-memory/db": "workspace:*",
+    "@project-memory/service": "workspace:*",
+    "zod": "^4.6.5"
+  }
+}

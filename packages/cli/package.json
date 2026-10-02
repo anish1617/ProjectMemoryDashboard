@@ -1,0 +1,24 @@
+{
+  "name": "project-memory",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "project-memory": "./dist/index.js"
+  },
+  "exports": "./dist/service.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@project-memory/integrations": "workspace:*",
+    "@project-memory/service": "workspace:*",
+    "@project-memory/api": "workspace:*",
+    "@project-memory/mcp-server": "workspace:*",
+    "@project-memory/core": "workspace:*",
+    "@project-memory/db": "workspace:*",
+    "@project-memory/git": "workspace:*",
+    "@project-memory/scanner": "workspace:*",
+    "@project-memory/runners": "workspace:*"
+  }
+}
