@@ -6,7 +6,7 @@ Updated: 2026-10-02, Asia/Katmandu. Read this first, then AGENTS.md and skills/p
 
 Local-first, agent-neutral Git project continuity. Evidence and interpretation stay distinct; no required API key, cloud or vector service. PRD.md governs V1, CODEX_BUILD_BRIEF.md the first slice, IMPLEMENTATION_PLAN.md current gates. Specifications are not implementation proof.
 
-User superseded original ordering: mock dashboard first, tool integration next. Resume projects is primary, portfolio/timeline alongside. Continue feasible phases and test each. User authorized self-registration, global conversation-invoked skill and ongoing project-local memory updates. Latest instruction: finish the tool before onboarding other user projects. Git main is unborn: no root commit, SHA or remote.
+User superseded original ordering: mock dashboard first, tool integration next. Resume projects is primary, portfolio/timeline alongside. Continue feasible phases and test each. User authorized self-registration, global conversation-invoked skill and ongoing project-local memory updates. Finish the tool before onboarding other user projects. Git now uses dev with origin https://github.com/anish1617/ProjectMemoryDashboard.git. Local initial implementation 18007f2 and remote license initialization 498efb9 had independent histories; merge de927eb preserves both without a force push. User authorized pushing and merging into remote dev. Earlier checkpoint Git observations describe their capture time.
 
 ## Current checkpoint
 
